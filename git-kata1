@@ -46,7 +46,7 @@ switch_user tesla
 
 switch_branch feature
 git pull --rebase origin master
-git push -f
+git push -f -u origin feature
 
 git fetch origin master:master
 display_log tesla
